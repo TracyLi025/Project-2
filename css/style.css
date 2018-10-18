@@ -1,0 +1,229 @@
+.indexbody {
+  background:url('indexbackground.jpg');
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+.resumebody {
+  background:url('resumebackground.jpg');
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+.aboutmebody {
+  background:url('aboutmeackground.jpg');
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+.navbar{
+  position: relative;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar a.active{
+  background-color: #4b5132;
+  color: white;
+}
+
+.navbar ul{
+  background-color: #aea8a1;
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.navbar li{
+  font-family: 'Mali', cursive;
+  font-size: 20px;
+  float: right;
+  list-style-type: none;
+}
+
+.navbar a{
+  display: inline-block;
+  text-align:center;
+  text-decoration: none;
+  padding: 15px;
+  transition: all 0.3s;
+}
+
+.navbar a:hover{
+  background-color: #29B6E6;
+  border-bottom: 5px solid #29B6F6;
+}
+
+.resume-wrap {
+  padding-bottom: 20px;
+  position: relative;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px #999;
+  margin: 30px auto;
+  padding-bottom: 40px;
+  background: #ECEFF1;
+  font-family: 'Roboto Slab', serif;
+}
+
+.resumetitle{
+  text-align: center;
+  font-size: 35px;
+  color: #ff6600;
+}
+
+.resume-wrap section{
+  margin: 10px 40px 30px 40px;
+  animation: fadein 0.5s;
+}
+
+.resume-wrap h2{
+  margin: 10px auto;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  border-bottom: 1px solid #333;
+}
+
+.index-wrap{
+  padding-bottom: 20px;
+  position: relative;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px #999;
+  margin: 30px auto;
+  padding-bottom: 40px;
+  background: #ECEFF1;
+  opacity: 0.9;
+}
+
+.subsection{
+  width: auto;
+  height: auto;
+  margin: 30px 20px 30px 20px;
+  overflow:hidden;
+}
+
+.one{
+  display:block;
+  width: 40%;
+  height: auto;
+  float: right;
+  position: relative;
+  animation: fadein 2s;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px #999;
+}
+
+.two{
+  display:block;
+  width: 25%;
+  height: 30%;
+  float: right;
+  position: relative;
+  animation: fadein 2s;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px #999;
+}
+
+.subsection h1{
+  text-align: center;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.subsection p{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+.subsection h2{
+  font-size: 30px;
+  font-family: 'Niramit', sans-serif;
+}
+
+.subsection h3{
+  font-size: 26px;
+  font-family: 'Josefin Slab', serif;
+}
+
+.aboutme-wrap{
+
+  padding-bottom: 20px;
+
+  position: relative;
+
+  width: 80%;
+
+  border-radius: 10px;
+
+  box-shadow: 0px 0px 20px 2px #999;
+
+  margin: 30px auto;
+
+  padding-bottom: 40px;
+
+  background: #ECEFF1;
+
+  opacity: 0.9;
+
+}
+
+
+
+.aboutme-wrap h1{
+
+  text-align: center;
+
+  font-size: 3.5em;
+
+  font-family: 'Charmonman', cursive;
+
+}
+
+
+
+.subsection.comment{
+
+  font-size: 50px;
+
+}
+
+
+
+.subsection video{
+
+  width:auto;
+
+  height: auto;
+
+}
+
+
+
+.aboutmeimage{
+
+  display:block;
+  width: 30%;
+  height: 20%;
+  float: left;
+
+  position: relative;
+
+  animation: fadein 2s;
+
+  margin-right: 20px;
+
+  border-radius: 10px;
+
+  box-shadow: 0px 0px 20px 2px #999;
+
+}
