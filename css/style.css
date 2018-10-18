@@ -11,7 +11,7 @@
 }
 
 .aboutmebody {
-  background:url('aboutmeackground.jpg');
+  background:url('aboutmebackground.jpg');
   background-repeat: repeat;
   background-size: 100%;
 }
@@ -25,7 +25,7 @@
 }
 
 .navbar a.active{
-  background-color: #4b5132;
+  background-color: #BA160C;
   color: white;
 }
 
@@ -52,8 +52,8 @@
 }
 
 .navbar a:hover{
-  background-color: #29B6E6;
-  border-bottom: 5px solid #29B6F6;
+  background-color: #D60270;
+  border-bottom: 5px solid #D60270;
 }
 
 .resume-wrap {
@@ -65,13 +65,13 @@
   margin: 30px auto;
   padding-bottom: 40px;
   background: #ECEFF1;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .resumetitle{
   text-align: center;
   font-size: 35px;
-  color: #ff6600;
+  font-family: 'Playfair Display', serif;
 }
 
 .resume-wrap section{
@@ -106,30 +106,6 @@
   overflow:hidden;
 }
 
-.one{
-  display:block;
-  width: 40%;
-  height: auto;
-  float: right;
-  position: relative;
-  animation: fadein 2s;
-  margin-right: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 20px 2px #999;
-}
-
-.two{
-  display:block;
-  width: 25%;
-  height: 30%;
-  float: right;
-  position: relative;
-  animation: fadein 2s;
-  margin-right: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 20px 2px #999;
-}
-
 .subsection h1{
   text-align: center;
   margin: 10px auto;
@@ -143,11 +119,9 @@
   font-family: 'Raleway', sans-serif;
 }
 
-
-
 .subsection h2{
   font-size: 30px;
-  font-family: 'Niramit', sans-serif;
+  font-family: 'Charmonman', cursive;
 }
 
 .subsection h3{
@@ -156,74 +130,42 @@
 }
 
 .aboutme-wrap{
-
   padding-bottom: 20px;
-
   position: relative;
-
   width: 80%;
-
   border-radius: 10px;
-
   box-shadow: 0px 0px 20px 2px #999;
-
   margin: 30px auto;
-
   padding-bottom: 40px;
-
   background: #ECEFF1;
-
   opacity: 0.9;
-
 }
-
-
-
-.aboutme-wrap h1{
-
-  text-align: center;
-
-  font-size: 3.5em;
-
-  font-family: 'Charmonman', cursive;
-
-}
-
-
-
-.subsection.comment{
-
-  font-size: 50px;
-
-}
-
-
 
 .subsection video{
-
-  width:auto;
-
-  height: auto;
-
+  width: 50%;
+  height: 50%;
+  margin-right: 20px;
+  border-radius: 10px;
 }
 
-
-
 .aboutmeimage{
-
   display:block;
   width: 30%;
   height: 20%;
   float: left;
-
   position: relative;
-
   animation: fadein 2s;
-
   margin-right: 20px;
-
   border-radius: 10px;
-
   box-shadow: 0px 0px 20px 2px #999;
+}
 
+.aboutmelogo{
+  display:block;
+  float: left;
+  position: relative;
+  animation: fadein 2s;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px #999;
 }
