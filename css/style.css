@@ -88,6 +88,10 @@
   border-bottom: 1px solid #333;
 }
 
+.file{
+  width: 650px;
+  height: 425px;
+}
 .index-wrap{
   padding-bottom: 20px;
   position: relative;
@@ -142,9 +146,9 @@
   opacity: 0.9;
 }
 
-.subsection video{
-  width: 50%;
-  height: 50%;
+.subsection video,iframe{
+  width: 520px;
+  height: 315px;
   margin-right: 20px;
   border-radius: 10px;
 }
