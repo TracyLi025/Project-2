@@ -2,23 +2,26 @@
   background:url('indexbackground.jpg');
   background-repeat: repeat;
   background-size: 100%;
+  float:left;
 }
 
 .resumebody {
   background:url('resumebackground.jpg');
   background-repeat: repeat;
   background-size: 100%;
+  float:none;
 }
 
 .aboutmebody {
   background:url('aboutmebackground.jpg');
   background-repeat: repeat;
   background-size: 100%;
+  float:left;
 }
 
 .navbar{
   position: relative;
-  padding: 0.5rem 1rem;
+  padding: 15px;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
@@ -91,6 +94,7 @@
 .file{
   width: 650px;
   height: 425px;
+  float:none; 
 }
 .index-wrap{
   padding-bottom: 20px;
@@ -102,6 +106,7 @@
   padding-bottom: 40px;
   background: #ECEFF1;
   opacity: 0.9;
+  float:none; 
 }
 
 .subsection{
@@ -109,6 +114,7 @@
   height: auto;
   margin: 30px 20px 30px 20px;
   overflow:hidden;
+  float:none;
 }
 
 .subsection h1{
@@ -144,6 +150,7 @@
   padding-bottom: 40px;
   background: #ECEFF1;
   opacity: 0.9;
+  float:none; 
 }
 
 .subsection video,iframe{
